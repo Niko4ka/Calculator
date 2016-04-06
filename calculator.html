@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.js"></script>
+</head>
+<body>
+ <h1>My Calculator</h1>
+ <div id="container">
+ 	<p>Number 1</p>
+ 	<input type="text" value="" id="firstData"></input><br>
+ 	<br>
+ 	<div class="buttons">
+ 	<button type="button" onclick="buttonSum()">+</button> 
+	<button type="button" onclick="buttonSub()">-</button>
+ 	<button type="button" onclick="buttonDiv()">/</button>
+ 	<button type="button" onclick="buttonMult()">*</button>
+ 	</div>
+ 	<p>Number 2</p>
+ 	<input type="text" value="" id="secondData"></input><br>
+ 	<br>
+ 	<input type="button" value="=" onclick="result()"></input><br>
+ 	<br>
+ 	<input type="number" ="" id="result"></input>
+ </div>
+</body>
+</html>
